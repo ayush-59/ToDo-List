@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.todo-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 50%;
+  border: 2px solid black;
+  box-shadow:2px 6px 6px 2px grey;
+}
+.todo-item {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cecece;
+  margin: 20px;
+  padding: 30px 20px 0;
+  justify-content: flex-start;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.todo-item p {
+  float: left;
+}
