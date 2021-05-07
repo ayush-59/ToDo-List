@@ -37,6 +37,7 @@ class App extends React.Component {
       <div class="todo-list">
         <h1>TODO LIST</h1>
         {list}
+        <p class="display"></p>
       </div>
     );
   }
